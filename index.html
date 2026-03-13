@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pastel Blue Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<script src="script.js"></script>
+</body>
+
+<nav>
+  <h2 class="logo">My Portfolio</h2>
+   
+  <ul>
+    <li><a href="#home"> Home</a></li>
+    <li><a href="#projects"> My Projects</a></li>
+    <li><a href="#about"> About Me</a></li>
+    <li><a href="#contacts"> Contacts</a></li>
+  </ul>
+</nav>
+
+
+<section id="home" class="section home">
+  <h1>Hello, I'm <span id="typing"></span></h1>
+ 
+  <p>BS Computer Science Student | Future Software Engineer</p>
+
+    <div class="stickers">
+        <img src="cat1.jpg" alt="Sticker" class="sticker">
+        <img src="cat2.jpg" alt="Sticker" class="sticker">
+        <img src="cat3.jpg" alt="Sticker" class="sticker">
+        <img src="cat4.jpg" alt="Sticker" class="sticker">
+        <img src="cat5.jpg" alt="Sticker" class="sticker">
+        <img src="cat6.jpg" alt="Sticker" class="sticker">
+    </div>
+</section>
+
+<section id="projects" class="section">
+  <h1>My Projects</h1>
+
+  <div class="project-container">
+
+    <div class="project-card">
+      <img src="WALLPAPER.jpg" alt="Multimedia Systems" onclick="zoomMedia(this)">
+      <h3>MULTIMEDIA SYSTEMS</h3>
+      <p>This is one of our laboratory projects in Multimedia Systems.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="robot.jpg" alt="Embedded Systems" onclick="zoomMedia(this)">
+      <h3>EMBEDDED SYSTEMS</h3>
+      <p>This is one of the hardest laboratory projects has given to us.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="DIORAMA.jpg" alt="Sustainable City Diorama" onclick="zoomMedia(this)">
+      <h3>CONTEMPORARY WORLD</h3>
+      <p>This diorama project is about Sustainable City.</p>
+    </div>
+
+    <div class="project-card">
+      <video onclick="zoomMedia(this)" controls>
+        <source src="PROJEYE.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>VIDEO PITCH</h3>
+      <p>This video pitch is about tracing every government project.</p>
+    </div>
+
+    <div class="project-card">
+      <video onclick="zoomMedia(this)" controls>
+        <source src="TYPEOFSHOTS.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>TYPES OF SHOTS</h3>
+      <p>This is about different types of shots we tackled in Multimedia Systems.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h1>About Me</h1>
+
+  <div class="about-container">
+
+    <img src="profile.jpg" alt="Profile Picture" class="profile">
+
+    <div class="about-info">
+      <p>👤 <strong>Name:</strong> Rey Gamariel I. Casicas</p>
+      <p>🎓 <strong>Course:</strong> BS Computer Science</p>
+      <p>📚 <strong>Status:</strong> College Student</p>
+    </div>
+
+    
+    <div class="about-box">
+      <p>
+      I am an introverted person who enjoys spending time alone and focusing on personal growth.
+      I like dancing and singing as ways to express myself and relax, even though I feel my singing
+      voice is not that good. I also have a strong interest in technology and hope to become a
+      skilled software developer who can create innovative and useful applications in the future. 🚀
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contacts" class="section contact">
+  <h1>Contacts</h1>
+
+  <div class="contact-card">
+    <p>Facebook: Rey Iglesia Casicas</p>
+  </div>
+
+  <div class="contact-card">
+    <p>Email: reycasicas@gmail.com</p>
+  </div>
+
+  <div class="contact-card">
+    <p>Phone: 09123456789</p>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
